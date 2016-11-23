@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   context: __dirname,
   devtool: debug ? "inline-sourcemap" : null,
-  entry: ".\\js\\my_react_script.js",
+  entry: ".\\src\\my_react_script.js",
   module: {
     loaders: [
       {
